@@ -1,0 +1,149 @@
+---
+copy_frm_location: site-files
+site_documentroot: /var/www/html/devopsdoor
+
+
+# Site Index Page Variable
+# site_title: Project DevopDoor
+# phone_number: +(91) 8877665544
+# email_address: xxxxxxx@gmail.com
+# have_any_questions: questions? 
+# website_title: Website for DevOps Door
+# dropdown_menu: 
+#   - MyPage
+#   - FAQuest
+#   - Page
+#   - Contact
+#   - Courses
+# house_address: 543 Linden St.South San Francisco, CA 94080
+
+site_title: DevOps Training by Basil Varghese
+phone_number: +(91) 8197408582
+email_address: basil1987@gmail.com
+have_any_questions: have any questions? 
+website_title: DevOps Door
+dropdown_menu: 
+  - Home
+  - FAQ
+  - Page
+  - Contact
+  - Courses
+house_address: Marathahalli, Bangalore
+
+# Variables for Home Slider
+home_slider_item: 
+  - title: Academy of DevOps
+    subtitle: DevOps Work Integrated Learning program
+  - title: DevOps Training by Basil Varghese
+    subtitle: The best trainer for DevOps and AWS
+  - title: We are experts in DevOps technology
+    subtitle: We believe in walking you through the path, than just learning
+
+# Welcome Section Variables
+welcome_section_title: Welcome To DevOps Training Program By Basil Varghese
+welcome_section_subtitle: We are a group of people working in different organisations, with 10+ years of Industrial experience. We provide online, offline and Corporate training on DevOps to groom eligible engineers who can deliver the IT projects as your Industry demands it.
+
+welcome_feature_items:
+  - title: The Experts
+    text: Our Trainers are experts in DevOps and we believe experience goes a long way
+    image: icon_1.png
+  - title: Zero Marketing
+    text: We dont have a marketing team. You call us and ask for Trainer Phone number. Talk to him directly
+    image: icon_2.png
+  - title: Individual Ownership
+    text: Your trainer is your primary point of contact. He take care of all your questions
+    image: icon_3.png
+  - title: Hundreds of successful stories
+    text: Our trainers have trained over 1000 IT professionals and we assist them in all the way we could.
+    image: icon_4.png
+
+
+# Popular Training Courses
+
+courses_section_title: DevOps Training Courses
+courses_section_subtitle: We offer DevOps and AWS training with all pre-requisites. You can chose the training based on the area that you are working in, or take a full DevOps and AWS program.
+
+courses_items:
+  - title: DevOps and AWS Complete Training
+    teacher: Mr Basil Varghese
+    text: This is a complete DevOps and AWS program which takes 85 hours of training. It covers everything a DevOps and AWS engineer need to know including ...
+    image: devopsaws.jpg
+  - title: Configuration Management - Ansible and Nagios
+    teacher: Mr Basil Varghese
+    text: This is a complete Configuration Management project training, which uses Ansible as core Configuration Management tool. If you are not a linux ...
+    image: ansible.png
+  - title: Build and Release through automated CI/CD pipeline
+    teacher: Mr Basil Varghese
+    text: This training walk you through real time based best practices in build and release, and automating software change management workflow through a ...
+    image: jenkins.png
+  - title: Containerisation - Docker and Kubernetes
+    teacher: Mr Basil Varghese
+    text: Containerisation is a new technology in DevOps where your software application components (services) run on lightweight intermodal containers, ...
+    image: docker.jpg
+  - title: AWS Project Training with Ansible automation
+    teacher: Mr Basil Varghese
+    text: This ia complete AWS program which come along with a free project. This training includes all required pre-requisites such as Linux Administration ...
+    image: aws.jpg
+  - title: Linux And Networking Training
+    teacher: Mr Basil Varghese
+    text: This free training covers all pre-requisites required for DevOps and AWS training. Intended for students from Non-IT background so you can ...
+    image: linux.jpg
+
+
+# Variables for Events
+
+events_section_title: Upcoming Batches
+events_section_subtitle: Below are the upcoming batches we are starting
+
+events_items:
+  - day: 17
+    month: Jun
+    title: CI/CD Pipeline - Git, Github, Ant, Maven, Jenkins
+    date_duration: 17/06/2019 - One month
+    location_n_mode: Marathahalli, Bangalore / Online
+  - day: 17
+    month: Jun
+    title: DevOps and AWS Complete Training
+    date_duration: 17/06/2019 - 2.5 months
+    location_n_mode: Marathahalli, Bangalore / Online
+  - day: 01
+    month: Jul
+    title: Configuration Management - Ansible and Nagios
+    date_duration: 01/07/2019 - One month
+    location_n_mode: Marathahalli, Bangalore / Online
+  - day: 01
+    month: Jul
+    title: DevOps and AWS Complete Training
+    date_duration: 01/07/2019 - 2.5 months
+    location_n_mode: Marathahalli, Bangalore / Online
+  - day: 15
+    month: Jul
+    title: Containerisarion - Docker and Kubernetes
+    date_duration: 15/07/2019 - One month
+    location_n_mode: Marathahalli, Bangalore / Online
+  - day: 15
+    month: Jul
+    title: DevOps and AWS Complete Training
+    date_duration: 15/07/2019 - 2.5 months
+    location_n_mode: Marathahalli, Bangalore / Online
+
+
+# Trainer Team Variables
+
+trainer_title: The Best Trainers Team
+trainer_subtitle: They are your trainers
+
+
+trainer_team:
+  - name: Basil Varghese
+    subtitle: CTO of Ravelgrid LLP
+    image: basil.png
+  - name: Sreenath Mithrasenan
+    subtitle: Senior Automation Analyst
+    image: sreenath.jpg
+  - name: Joseph Thomas
+    subtitle: DevOps Tech Lead
+    image: joseph.png
+  - name: Anil K Thomas
+    subtitle: DevOps Tech Lead
+    image: anil.png

@@ -1,0 +1,10 @@
+-
+  name: Praveen's Apache Installation
+  hosts: apache_server
+  remote_user: ubuntu
+  become_user: root
+  become_method: sudo
+  become: yes
+
+  roles:
+    - apache

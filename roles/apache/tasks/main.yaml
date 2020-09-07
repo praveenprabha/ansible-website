@@ -1,0 +1,53 @@
+---
+
+- name: Installing Apache
+  apt:
+    name: "{{ apache_package }}"
+    state: present
+    update_cache: yes
+
+- name: Enable Apache Modules
+  file:
+    src: "{{ apache_config_path }}/mods-available/{{ item }}"
+    dest: "{{ apache_config_path }}/mods-enabled/{{ item }}"
+    state: link
+  with_items: "{{ apache_mods_enabled }}"
+  notify: restart apache
+
+
+- name: Starting Apache
+  service:
+    name: "{{ apache_package }}"
+    state: started
+
+
+- name: Creating the DocumentRoot for the mentioned VHOSTS
+  file:
+    path: "{{ item.documentroot}}"
+    state: directory
+    mode: 0755
+  with_items: "{{ site_list }}"
+  
+
+- name: Creating VHOSTs file in site-available folder
+  template:
+    src: vhosts.conf.j2
+    dest: "{{ apache_config_path }}/sites-available/{{ item.servername }}.conf"
+    mode: 0644
+  with_items: "{{ site_list }}"
+  notify: restart apache
+
+- name: Creating linked VHOSTs file in site-enabled folder
+  file: 
+    src : "{{ apache_config_path }}/sites-available/{{ item.servername }}.conf"
+    dest: "{{ apache_config_path }}/sites-enabled/{{ item.servername }}.conf"
+    state: link
+  with_items: "{{ site_list }}"
+  notify: restart apache
+
+- name: Copy sample index.html page to document root of the site
+  copy:
+    src: index.html
+    dest: "{{ item.documentroot}}"
+    mode: 0644
+  with_items: "{{ site_list }}"

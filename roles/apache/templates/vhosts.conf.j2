@@ -1,0 +1,15 @@
+
+
+{% for site in site_list %}
+<VirtualHost *:80>
+        ServerName {{ site.servername }}
+        DocumentRoot {{  site.documentroot }}
+
+        <Directory "{{ site.documentroot }}" >
+          AllowOverride {{ apache_allow_override }}
+          Options {{ apache_options }}
+        </Directory>
+
+</VirtualHost>
+{% endfor %}
+
