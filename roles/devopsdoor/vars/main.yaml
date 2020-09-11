@@ -3,19 +3,26 @@ copy_frm_location: site-files
 site_documentroot: /var/www/html/devopsdoor
 
 
-# Site Index Page Variable
+#Site Index Page Variable
+
 # site_title: Project DevopDoor
 # phone_number: +(91) 8877665544
 # email_address: xxxxxxx@gmail.com
 # have_any_questions: questions? 
 # website_title: Website for DevOps Door
 # dropdown_menu: 
-#   - MyPage
-#   - FAQuest
-#   - Page
-#   - Contact
-#   - Courses
-# house_address: 543 Linden St.South San Francisco, CA 94080
+#   - name: MyPage
+#     link: index
+#   - name: FAQuest
+#     link: '#'
+#   - name: Page
+#     link: '#'
+#   - name: Contact
+#     link: contact
+#   - name: Courses 
+#     link: course_home
+# house_address: San Francisco, CA 94080
+# house_location: 543 Linden St.South San Francisco, CA 94080
 
 site_title: DevOps Training by Basil Varghese
 phone_number: +(91) 8197408582
@@ -23,12 +30,18 @@ email_address: basil1987@gmail.com
 have_any_questions: have any questions? 
 website_title: DevOps Door
 dropdown_menu: 
-  - Home
-  - FAQ
-  - Page
-  - Contact
-  - Courses
+  - name: Home
+    link: index
+  - name: FAQ
+    link: '#'
+  - name: Page
+    link: '#'
+  - name: Contact
+    link: contact
+  - name: Courses
+    link: course_home
 house_address: Marathahalli, Bangalore
+house_location: 223, Asset Aura, Marathahalli, Bangalore
 
 # Variables for Home Slider
 home_slider_item: 

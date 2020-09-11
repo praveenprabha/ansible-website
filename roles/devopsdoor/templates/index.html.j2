@@ -74,7 +74,7 @@
 								<ul class="main_nav">
 									<li class="active"></li>
                   {% for menu_item in dropdown_menu %}
-																		<li><a type="text/css" href="index/">{{ menu_item }}</a></li>
+																		<li><a type="text/css" href="{{menu_item.link}}/">{{ menu_item.name }}</a></li>
 																		{# <li><a type="text/css" href="#/">FAQ</a></li>
 																		<li><a type="text/css" href="#/">Page</a></li>
 																		<li><a type="text/css" href="contact/">Contact</a></li>

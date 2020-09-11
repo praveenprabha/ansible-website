@@ -1,20 +1,36 @@
 ---
-- name: Copy Required File and Folder to DocumentRoot of the Site
-  copy:
-    src: "{{ copy_frm_location }}/{{ item }}"
-    dest: "{{ site_documentroot }}"
-  with_items:
-    - images
-    - plugins
-    - js
-    - styles
-    - .htaccess
+# - name: Copy Required File and Folder to DocumentRoot of the Site
+#   copy:
+#     src: "{{ copy_frm_location }}/{{ item }}"
+#     dest: "{{ site_documentroot }}"
+#   with_items:
+#     - images
+#     - plugins
+#     - js
+#     - styles
+#     - .htaccess
 
 
-
-- name: Copy Index file  using jinja template
+- name: Copy Index WebPage  using jinja template
   template:
     src: index.html.j2
     dest: "{{ site_documentroot }}/index.html"
     mode: 0644
-    
+
+- name: Include Variables
+  include_vars: contact.yaml
+
+- name: Copy Contact WebPage  using jinja template
+  template:
+    src: contact.html.j2
+    dest: "{{ site_documentroot }}/contact.html"
+    mode: 0644
+
+- name: Include Variables
+  include_vars: devopsaws.yaml
+
+- name: Copy DevopsAWS WebPage  using jinja template
+  template:
+    src: devopsaws.html.j2
+    dest: "{{ site_documentroot }}/devopsaws.html"
+    mode: 0644

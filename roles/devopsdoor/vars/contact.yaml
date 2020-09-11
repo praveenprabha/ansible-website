@@ -1,0 +1,12 @@
+---
+# Contact Variable
+
+contact_info_title: Contact Info
+contact_info_text: Find our contact information below.
+
+contact_location:
+  - title: "{{ house_address }}"
+    list:
+      - "{{ house_location }}"
+      - "{{ phone_number }}"
+      - "{{ email_address }}"
