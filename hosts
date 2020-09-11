@@ -1,4 +1,4 @@
 # apache_server ansible_host=172.31.47.167
 
 [apache_server] 
-172.31.47.167
+172.31.38.197

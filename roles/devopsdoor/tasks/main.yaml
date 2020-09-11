@@ -1,14 +1,15 @@
 ---
-# - name: Copy Required File and Folder to DocumentRoot of the Site
-#   copy:
-#     src: "{{ copy_frm_location }}/{{ item }}"
-#     dest: "{{ site_documentroot }}"
-#   with_items:
-#     - images
-#     - plugins
-#     - js
-#     - styles
-#     - .htaccess
+
+- name: Copy Required File and Folder to DocumentRoot of the Site
+  copy:
+    src: "{{ copy_frm_location }}/{{ item }}"
+    dest: "{{ site_documentroot }}"
+  with_items:
+    - images
+    - plugins
+    - js
+    - styles
+    - .htaccess
 
 
 - name: Copy Index WebPage  using jinja template
