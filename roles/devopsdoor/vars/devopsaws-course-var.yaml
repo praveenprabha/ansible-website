@@ -1,0 +1,346 @@
+
+
+course_title: DevOps and AWS Complete Training
+course_info:
+  teacher: Basil Varghese
+  position: CTO of RavelGrid LLP 
+  category: Cloud Computing
+  image: basil_small.png
+  teacher_rating: 4.9
+  teacher_review: 140
+  teacher_quizzes: 600
+  teacher_info: |
+      Basil Varghese is an IT expert with 10+ years of IT experience and 5 years of Training experience in DevOps and Cloud. He is the CTO and Co-Founder of RavelGrid Technologies LLP, which is a startup that provide private cloud and DevOps solutions to its partner network. Before Starting his own venture, Basil worked as a Senior Liaison in Akamai Technologies, one of the biggest internet company. In his 10+ years of career, he worked for many startups and big companies and have an excellent technical and soft skills
+course_image: devopsaws.jpg
+course_duration: 2.5 months
+course_lectures: 58 lectures
+course_hours: 85 hours
+
+rating:
+  num_of_star: rating_r_4
+  num_of_rating: 79
+  review_rating: 4.8
+  star:
+    - name: 5 Star
+      percent: 95
+    - name: 4 Star
+      percent: 20
+    - name: 3 Star
+      percent: 10
+    - name: 2 Star
+      percent: 0
+    - name: 1 Star
+      percent: 0
+
+
+
+
+## Course Description ## 
+
+course_desc_title: DevOps and AWS Complete Training
+course_desc_text: |
+  This is a complete DevOps and AWS program which takes 85 hours of training. It covers everything a DevOps and AWS engineer need to know including Linux Administration and Networking Basics, Scripting - Bash and Python, AWS training, DevOps CI/CD Pipeline, DevOps Configuration Management and continues Monitoring, Containerization in DevOps. All courses go along with a free project.
+
+course_requirement:
+  - You have 1+ years of experience into IT and software applications.
+  - You have completed the pre-requisites training conducted by Basil Varghese
+
+targeted_audience: |
+  This course is intended for students who want to pursue a career in DevOps and need to understand how cloud computing helps todays IT demands. A real like projects guide you through the process which a company follow as their software practices. This is purely for a DevOps job, doesnt have much to do on the coding part, except some scripting which is mandatory for Automation. After learning this course and completing all projects, you become eligible to work on a core DevOps profile, also managing cloud resources required for your projects
+
+## FAQ Section ##
+
+faq:
+  - question: |
+        I have a very little experience in IT. Is this course suitable for me?
+    answer: |
+        Yes, You need to complete the prerequisites training, a 2 weeks free program. You are eligible to start with this Training once you completed the prerequisites.
+  - question: |
+        Is the trainer reachable offline, whenever I need help?
+    answer: |
+        Yes. The offline support will be available during the day time, preferrably in the first half. You will have unconrolled access to the trainer along with his phone numbers and email IDs.
+  - question: |
+        Do you provide course materials?
+    answer: |
+        Once you enrolled to the training, you will get unlimitted long term access to a training portal where you will find all course maretials such as Presentations, Course Assignments, Project description, Trainer notes and Major tutorials etc. You will continue to get access to this portal even after the course completion. This allows you to complete the assigned projects with help of trainer. There is a chat option available in the portal too, to communicate with trainer and other students
+  - question: |
+        Do you provide job assistance?
+    answer: |
+        As of now, the job assistance is purely based on performance. Our trainers have more than 10 years of experience and they get lots of enquiries from colligues/companies. We assist the students purely based on performance which inlcude status of their attendance, project and assignment completions etc. So far, all our students who successfully completed all projects already found their way in their career
+  - question: |
+        Does the trainer help preparing for interviews and resumes ?
+    answer: |
+        Yes, trainer will assist you at end of the training with your resume preparation and interview patterns
+  - question: |
+        What are the prerequisites for this training ?
+    answer: |
+        A basic understanding about softwares and practices, knowledge into Networking concepts and Linux Administration are the mandatory prerequisites. Good knowledge in scripting (preferrably Python and Bash) and automation is highly recommended too. This course covers all prerequisites including Python and Shell programming.
+  - question: |
+        Do you offer any project to understand the real time scenarios?
+    answer: |
+        All courses come along with a free project. We offer a total of 4 projects, all of them prepared by your trainer(who will have atleast 10 years of work experience) completely based on work scenarios. It means you get to work on loads of real time scenarios.
+
+
+## Course Curriculam Details ##
+
+course_curriculam_list:
+  - topic: Configuration Management Training - Ansible and Nagios
+    subtopic:
+      - name: Chef
+        describe:
+          - Introduction to Chef
+          - Comparison with Ansible
+          - Configuration Management Project - How it can be done on Chef
+      - name: Puppet
+        describe:
+          - Introduction to Puppet
+          - Comparison with Ansible
+          - Configuration Management Project - How it can be done on Puppet
+      - name: Ansible
+        describe:
+          - Introduction to configuration Management
+          - Ansible and SSH
+          - Ansible architecture
+          - Advantage over other 
+          - Playbooks in Ansible - demo
+          - Security
+          - Introduction to YAML
+          - Ansible inventory
+          - Ansible Modules
+          - Advanced Playbook usage
+          - Ansible Roles
+          - Roles and your production infrastructure
+          - Ansible Galaxy, Demo
+          - Config Release using Ansible, Git etc
+          - Autoscaling using Ansible
+          - Integration with Cloud/AWS
+          - Final Project
+  - topic: Build and Release Training - Git, Ant, Maven Nexus, Jenkins
+    subtopic:
+      - name: Ant
+        describe:
+          - Build Fundamentals
+          - XML scripting
+          - Properties and Variables
+          - ClassPath and Project orchestration
+      - name: Maven
+        describe:
+          - Introduction to Build Management
+          - executable code and their significance in DevOps
+          - Maven - Introduction
+          - Classes and unit test in Java
+      - name: Git and GitHub
+        describe:
+          - SCM - introduction
+          - Workflow of Developers in companies
+  - topic: AWS Training
+    subtopic:
+      - name: IAM
+        describe:
+          - Access management - Introduction
+          - Restricting your aws resources access.
+          - IAM Users
+          - IAM Groups
+          - IAM Roles
+          - Access Key and Secret Keys
+          - Integrating your running applications with AWS cloud.
+      - name: SES
+        describe: 
+          - SMTP - Introduction
+          - SMTP as a service
+          - Sending out emails from your running applications
+      - name: RDS
+        describe:
+          - Relational Databases - Introduction
+          - Introduction to PaaS
+          - Running yout relational databases in Cloud
+          - Migrating your existing Databases to Cloud
+          - Security Practices to secure your data.
+      - name: S3
+        describe:
+          - Object storages and significance.
+          - Storing your Objects in cloud
+          - Integrating your php / java applications with S3
+          - Static Website Hosting at cheap price
+          - Versioning
+          - S3 for Backup
+      - name: Autoscaling
+        describe:
+          - Scaling your applications based on Demand
+          - Significance of Autoscaling in modern infrastructures.
+          - Sample scenarios
+          - Autoscaling groups
+          - Launch Configurations
+          - Integration with Ansible.
+      - name: Route 53
+        describe:
+          - Hosted Zone
+          - Hosting your first website
+          - A, MX and CNAME records
+          - High Availability for your webapplications across multiple regions.
+          - Failover and Health Checks
+      - name: CloudFront
+        describe:
+          - Introduction to Content Delivery Networks.
+          - CDN as a service
+          - Running your website in Cloudfront for fast access by Internet
+          - DNS Load Balancing and CDNs
+      - name: EC2 - Virtual Machine management in AWS
+        describe:
+          - Introduction Cloud Computing and Virtualization
+          - AWS Global Architecture
+          - Instance types
+          - Elastic Block Storage (EBS)
+          - Key Pairs and Automation
+          - Elastic IP and Dynamic IP
+          - AMI, Snapshot
+          - Security Groups
+      - name: Python Integration
+        describe:
+          - Manage your AWS cloud using a python program
+          - Python boto module for AWS automation.
+          - Importance of Python in cloud computing.
+          - Best practices.
+      - name: CloudWatch
+        describe:
+          - Monitoring your AWS resources
+          - Significance of monitoring
+          - Monitoring and scaling your applications
+          - Metrices
+          - Alarms
+          - Events
+          - Cloudwatch Vs Nagios
+      - name: VPC
+        describe:
+          - Networking Concepts in AWS
+          - Traditional Networking and Cloud Networking.
+          - Bulding your first Network in the Cloud
+          - Internet Gateways in Cloud
+          - Private and Public Networks
+          - Subnets and Routing Tables
+          - ACLS, Security Groups
+          - NAT Gateways and their functions
+          - Security practices in VPC.
+          - Designing a tier 3 application infrastructure in cloud
+      - name: ELB - Elastic Loadbalancers
+        describe:
+          - Target Groups
+          - LoadBalancers
+          - Roundrobin and application performance.
+          - Running your web applications behind LoadBalancers
+          - Health Checks and High availability.
+          - Cross Zone Load Balancing.
+          - Grouping your machines for LoadBalancing, Best Practices.
+      - name: AWS CLI Tools
+        describe:
+          - Automating your infrastructure.
+          - Importance of Automation in modern infrastructures.
+          - Build an infrastructure from your scripts.
+          - Best Automation practices followed by companies.
+  - topic: Scripting Training - Bash and Python Scripting
+    subtopic:
+      - name: Shell Scripting
+        describe:
+          - Linux Shell
+          - Introduction to Bash
+          - Introduction to Linux process
+          - Positional Parameters
+          - Conditional statements
+          - Loops in Bash
+          - Function
+          - GetOps
+          - Case statement
+          - Linux Administration using shell scripting
+          - Real time scripts for different system administration activities
+      - name: Python Programming
+        describe:
+          - Why Python?
+          - Introduction to Object oriented programming
+          - Interactive programming concepts - Data Types
+          - Dictionary, List and Tuples
+          - Loop, Function, conditional statements
+          - Python modules and real time use - Creating module in python
+          - Practical scripts and real time examples
+
+  - topic: Containers and orchestration Training - Docker and Kubernetes
+    subtopic:
+      - name: Docker
+        describe:
+          - Introduction to Virtualization
+          - Introduction to Containerization
+          - Containerization Vs Virtualization
+          - Docker Container
+          - Docker Images
+          - PHP Application Deployment using Docker
+          - Life cycles of a container
+          - Introduction to Microservices
+          - Docker cluster - Swarm
+          - Services and Stack
+          - Docker-compose
+          - Build your container infrastructure
+          - Containerizing your existing Application
+          - Docker Networking
+          - Best Security Practices
+          - Docker images as your artifacts
+          - Release process using Dockers
+          - Integration with Jenkins
+      - name: Kubernetes
+        describe:
+          - Containerization and Clusters
+          - Kubernetes Architecture
+          - Setting up Clusters
+          - Deploying containerized applications.
+          - Modules
+          - Scaling up Applications
+          - Change Management
+          - Kubernetes API Server
+          - Master and Node components in Kubernetes
+          - apiserver, etcd, scheduler, controller managers and cloud controller managers
+          - Kubelet and Container runtime
+          - Addons
+          - Final Project
+
+  - topic: Pre-Requisites - All Major prerequisites for this training
+    subtopic:
+      - name: Linux Administration
+        describe:
+          - Package managers in Linux
+          - Introduction to Web Applications
+          - Apache and Apache modules 
+          - PHP Web Application frameworks 
+          - Application Servers and Tomcat
+          - Java Web application frameworks
+          - Database Servers - MySQL
+          - A sample Web application that run in Linux environment.  
+      - name: Networking Concepts
+        describe:
+          - Networking basics
+          - Internet and ISP
+          - NAT gateways, Routers and Switches
+          - DNS 
+          - Hosting your first website and running your webapplication
+      - name: Linux Basics
+        describe:
+          - Basic Linux Commands
+          - User management in Linux
+          - Permissions
+          - Troubleshooting and Log management
+
+## Review Comments ##
+
+review_comment:
+  - name: Sandeep R
+    time: 1 day ago 
+    comment_rating: rating_r_4
+    comment: |
+        Absolutely Brilliant Training by Basil. I recommend DevOps Door to anyone who is looking for DevOps and AWS Training.
+    comment_like: 15
+    images: " "
+  - name: Rony
+    time: 1 day ago
+    comment_rating: rating_r_5
+    comment: |
+        I agree. He is amazing.
+    comment_like: 15
+    images: images/comment_2.jpg
+

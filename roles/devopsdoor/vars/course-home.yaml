@@ -1,0 +1,38 @@
+
+courses:
+  - title: DevOps and AWS Complete Training
+    link: devopsaws
+    img: devopsaws.jpg
+    teacher: Mr. Basil Varghese
+    text: |
+      This is a complete DevOps and AWS program which takes 85 hours of training. It covers everything a DevOps and AWS engineer need to know including Linux Administration and Networking Basics, Scripting - Bash and Python, AWS training, DevOps CI/CD Pipeline, DevOps Configuration Management and continues Monitoring, Containerization in DevOps. All courses go along with a free project.
+  - title: Configuration Management - Ansible and 
+    link: ansible
+    img: ansible.png
+    teacher: Mr Basil Varghese
+    text: | 
+      This is a complete Configuration Management project training, which uses Ansible as core Configuration Management tool. If you are not a linux expert, please complete our free prerequisites trainig before you enrol. This course covers best practices to manage your software infrastructure configuration. After training, you will get a chance to work on a real scenario based project.
+  - title: Build and Release through automated CI/CD pipeline
+    link: jenkins
+    img: jenkins.png
+    teacher: Mr Basil Varghese
+    text: |
+      This training walk you through real time based best practices in build and release, and automating software change management workflow through a Ci/CD pipeline. If you have good knowledge on build and release process, you can enrol to this course. Else, please take the prerequisites training before enrolling. You get a chance to work on a real scenario based project, after course.
+  - title: Containerisation - Docker and Kubernetes
+    link: docker
+    img: docker.jpg
+    teacher: Mr Basil Varghese
+    text: | 
+      Containerisation is a new technology in DevOps where your software application components (services) run on lightweight intermodal containers, rather than machines. Containerisation makes your software delivery process pretty simple. A complete project after the training will walk you through the extra-ordinary things Containerisation has brought in to continues software management
+  - title: AWS Project Training with Ansible automation
+    link: aws
+    img: aws.jpg
+    teacher: Mr Basil Varghese<
+    text: |
+      This ia complete AWS program which come along with a free project. This training includes all required pre-requisites such as Linux Administration and Networking, Scripting - Bash and Python. In fact it covers everything a cloud engineer need to know. This is a working profile for quick job seekers (and if interested, your first step towards switching your career to a DevOps Engineer)
+  - title: Linux And Networking Training
+    link: linux
+    img: linux.jpg
+    teacher: Mr Basil Varghese
+    text: |
+      This free training covers all pre-requisites required for DevOps and AWS training. Intended for students from Non-IT background so you can evaluate yourself before you enroll to a paid training. This includes Linux Basics, Linux Administration, Networking Concepts, Introduction to Cloud Computing and security practices in IT. Students can opt out after this training, with full refund.

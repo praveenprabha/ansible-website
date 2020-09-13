@@ -18,6 +18,7 @@
     dest: "{{ site_documentroot }}/index.html"
     mode: 0644
 
+
 - name: Include Variables
   include_vars: contact.yaml
 
@@ -27,11 +28,23 @@
     dest: "{{ site_documentroot }}/contact.html"
     mode: 0644
 
-- name: Include Variables
-  include_vars: devopsaws.yaml
 
-- name: Copy DevopsAWS WebPage  using jinja template
+- name: Setup Individual Course Details WebPage.
+  include_tasks: "setup-course-details.yaml"
+  with_items:
+    - devopsaws
+    - ansible
+    - aws
+    - docker
+    - jenkins
+    - linux
+
+
+- name: Include Variables
+  include_vars: course-home.yaml
+
+- name: Copy Contact WebPage  using jinja template
   template:
-    src: devopsaws.html.j2
-    dest: "{{ site_documentroot }}/devopsaws.html"
+    src: course_home.html.j2
+    dest: "{{ site_documentroot }}/course_home.html"
     mode: 0644

@@ -1,0 +1,8 @@
+- name: Include Variables
+  include_vars: "{{ item }}-course-var.yaml"
+
+- name: Copy testing webpage using jinja2 template
+  template: 
+    src: course_details_template.html.j2
+    dest: "{{ site_documentroot }}/{{ item }}.html"
+    mode: 0644

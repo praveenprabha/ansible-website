@@ -1,0 +1,260 @@
+
+
+course_title: AWS Project Training with Ansible automation
+course_info:
+  teacher: Basil Varghese
+  position: CTO of RavelGrid LLP 
+  category: Cloud Computing
+  image: basil_small.png
+  teacher_rating: 4.9
+  teacher_review: 140
+  teacher_quizzes: 600
+  teacher_info: |
+      Basil Varghese is an IT expert with 10+ years of IT experience and 5 years of Training experience in DevOps and Cloud. He is the CTO and Co-Founder of RavelGrid Technologies LLP, which is a startup that provide private cloud and DevOps solutions to its partner network. Before Starting his own venture, Basil worked as a Senior Liaison in Akamai Technologies, one of the biggest internet company. In his 10+ years of career, he worked for many startups and big companies and have an excellent technical and soft skills
+course_image: aws.jpg
+course_duration: 1 months
+course_lectures: 26 lectures
+course_hours: 45 hours
+
+rating:
+  num_of_star: rating_r_4
+  num_of_rating: 79
+  review_rating: 4.8
+  star:
+    - name: 5 Star
+      percent: 95
+    - name: 4 Star
+      percent: 20
+    - name: 3 Star
+      percent: 10
+    - name: 2 Star
+      percent: 0
+    - name: 1 Star
+      percent: 0
+
+
+
+
+## Course Description ## 
+
+course_desc_title: AWS Project Training with Ansible automation
+course_desc_text: |
+  This ia complete AWS program which come along with a free project. This training includes all required pre-requisites such as Linux Administration and Networking, Scripting - Bash and Python. In fact it covers everything a cloud engineer need to know. This is a working profile for quick job seekers (and if interested, your first step towards switching your career to a DevOps Engineer)
+
+course_requirement:
+  - You have 1+ years of experience into IT and software applications.
+  - You have completed the pre-requisites training conducted by Basil Varghese
+
+targeted_audience: |
+  This program is suited for every Engineers working in IT industry. You understand the great freedom and oppurtunities which cloud computing provides that make your infrastructure more practical to meet software requirements and traffic demands.
+
+## FAQ Section ##
+
+faq:
+  - question: |
+        I have a very little experience in IT. Is this course suitable for me?
+    answer: |
+        Yes, You need to complete the prerequisites training, a 2 weeks free program. You are eligible to start with this Training once you completed the prerequisites.
+  - question: |
+        Is the trainer reachable offline, whenever I need help?
+    answer: |
+        Yes. The offline support will be available during the day time, preferrably in the first half. You will have unconrolled access to the trainer along with his phone numbers and email IDs.
+  - question: |
+        Do you provide course materials?
+    answer: |
+        Once you enrolled to the training, you will get unlimitted long term access to a training portal where you will find all course maretials such as Presentations, Course Assignments, Project description, Trainer notes and Major tutorials etc. You will continue to get access to this portal even after the course completion. This allows you to complete the assigned projects with help of trainer. There is a chat option available in the portal too, to communicate with trainer and other students
+  - question: |
+        Do you provide job assistance?
+    answer: |
+        As of now, the job assistance is purely based on performance. Our trainers have more than 10 years of experience and they get lots of enquiries from colligues/companies. We assist the students purely based on performance which inlcude status of their attendance, project and assignment completions etc. So far, all our students who successfully completed all projects already found their way in their career
+  - question: |
+        Does the trainer help preparing for interviews and resumes ?
+    answer: |
+        Yes, trainer will assist you at end of the training with your resume preparation and interview patterns
+  - question: |
+        What are the prerequisites for this training ?
+    answer: |
+        A basic understanding about softwares and practices, knowledge into Networking concepts and Linux Administration are the mandatory prerequisites. Good knowledge in scripting (preferrably Python and Bash) and automation is highly recommended too. If you are unsure about these prerequisites, please consider taking our 90 hours full devops and aws program.
+  - question: |
+        Do you offer any project to understand the real time scenarios?
+    answer: |
+        This course come along with a free project prepared by your trainer (who will have atleast 10 years of work experience) completely based on work scenarios. It means you get a chance to work on loads of real time scenarios.
+
+
+## Course Curriculam Details ##
+
+course_curriculam_list:
+  - topic: Scripting Training - Bash and Python Scripting
+    subtopic:
+      - name: Shell Scripting
+        describe:
+          - Linux Shell
+          - Introduction to Bash
+          - Introduction to Linux process
+          - Positional Parameters
+          - Conditional statements
+          - Loops in Bash
+          - Function
+          - GetOps
+          - Case statement
+          - Linux Administration using shell scripting
+          - Real time scripts for different system administration activities
+      - name: Python Programming
+        describe:
+          - Why Python?
+          - Introduction to Object oriented programming
+          - Interactive programming concepts - Data Types
+          - Dictionary, List and Tuples
+          - Loop, Function, conditional statements
+          - Python modules and real time use - Creating module in python
+  - topic: Pre-Requisites - All Major prerequisites for this training
+    subtopic:
+      - name: Linux Administration
+        describe:
+          - Package managers in Linux
+          - Introduction to Web Applications
+          - Apache and Apache modules 
+          - PHP Web Application frameworks 
+          - Application Servers and Tomcat
+          - Java Web application frameworks
+          - Database Servers - MySQL
+          - A sample Web application that run in Linux environment.  
+      - name: Networking Concepts
+        describe:
+          - Networking basics
+          - Internet and ISP
+          - NAT gateways, Routers and Switches
+          - DNS 
+          - Hosting your first website and running your webapplication
+      - name: Linux Basics
+        describe:
+          - Basic Linux Commands
+          - User management in Linux
+          - Permissions
+          - Troubleshooting and Log management
+  - topic: AWS Training
+    subtopic:
+      - name: IAM
+        describe:
+          - Access management - Introduction
+          - Restricting your aws resources access.
+          - IAM Users
+          - IAM Groups
+          - IAM Roles
+          - Access Key and Secret Keys
+          - Integrating your running applications with AWS cloud.
+      - name: SES
+        describe: 
+          - SMTP - Introduction
+          - SMTP as a service
+          - Sending out emails from your running applications
+      - name: RDS
+        describe:
+          - Relational Databases - Introduction
+          - Introduction to PaaS
+          - Running yout relational databases in Cloud
+          - Migrating your existing Databases to Cloud
+          - Security Practices to secure your data.
+      - name: S3
+        describe:
+          - Object storages and significance.
+          - Storing your Objects in cloud
+          - Integrating your php / java applications with S3
+          - Static Website Hosting at cheap price
+          - Versioning
+          - S3 for Backup
+      - name: Autoscaling
+        describe:
+          - Scaling your applications based on Demand
+          - Significance of Autoscaling in modern infrastructures.
+          - Sample scenarios
+          - Autoscaling groups
+          - Launch Configurations
+          - Integration with Ansible.
+      - name: Route 53
+        describe:
+          - Hosted Zone
+          - Hosting your first website
+          - A, MX and CNAME records
+          - High Availability for your webapplications across multiple regions.
+          - Failover and Health Checks
+      - name: CloudFront
+        describe:
+          - Introduction to Content Delivery Networks.
+          - CDN as a service
+          - Running your website in Cloudfront for fast access by Internet
+          - DNS Load Balancing and CDNs
+      - name: EC2 - Virtual Machine management in AWS
+        describe:
+          - Introduction Cloud Computing and Virtualization
+          - AWS Global Architecture
+          - Instance types
+          - Elastic Block Storage (EBS)
+          - Key Pairs and Automation
+          - Elastic IP and Dynamic IP
+          - AMI, Snapshot
+          - Security Groups
+      - name: Python Integration
+        describe:
+          - Manage your AWS cloud using a python program
+          - Python boto module for AWS automation.
+          - Importance of Python in cloud computing.
+          - Best practices.
+      - name: CloudWatch
+        describe:
+          - Monitoring your AWS resources
+          - Significance of monitoring
+          - Monitoring and scaling your applications
+          - Metrices
+          - Alarms
+          - Events
+          - Cloudwatch Vs Nagios
+      - name: VPC
+        describe:
+          - Networking Concepts in AWS
+          - Traditional Networking and Cloud Networking.
+          - Bulding your first Network in the Cloud
+          - Internet Gateways in Cloud
+          - Private and Public Networks
+          - Subnets and Routing Tables
+          - ACLS, Security Groups
+          - NAT Gateways and their functions
+          - Security practices in VPC.
+          - Designing a tier 3 application infrastructure in cloud
+      - name: ELB - Elastic Loadbalancers
+        describe:
+          - Target Groups
+          - LoadBalancers
+          - Roundrobin and application performance.
+          - Running your web applications behind LoadBalancers
+          - Health Checks and High availability.
+          - Cross Zone Load Balancing.
+          - Grouping your machines for LoadBalancing, Best Practices.
+      - name: AWS CLI Tools
+        describe:
+          - Automating your infrastructure.
+          - Importance of Automation in modern infrastructures.
+          - Build an infrastructure from your scripts.
+          - Best Automation practices followed by companies.
+
+
+
+
+## Review Comments ##
+
+review_comment:
+  - name: Sandeep R
+    time: 1 day ago 
+    comment_rating: rating_r_4
+    comment: |
+        Absolutely Brilliant Training by Basil. I recommend DevOps Door to anyone who is looking for DevOps and AWS Training.
+    comment_like: 15
+    images: " "
+  - name: Rony
+    time: 1 day ago
+    comment_rating: rating_r_5
+    comment: |
+        I agree. He is amazing.
+    comment_like: 15
+    images: images/comment_2.jpg
+

@@ -40,14 +40,14 @@
 						<div class="col">
 							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
 								<ul class="top_bar_contact_list">
-									<li><div class="question">Have any questions?</div></li>
+									<li><div class="question">{{ have_any_questions }}</div></li>
 									<li>
 										<i class="fa fa-phone" aria-hidden="true"></i>
-										<div>+(91) 8197408582</div>
+										<div>{{ phone_number }}</div>
 									</li>
 									<li>
 										<i class="fa fa-envelope-o" aria-hidden="true"></i>
-										<div>basil1987@gmail.com</div>
+										<div>{{ email_address }}</div>
 									</li>
 								</ul>
 								<div class="top_bar_login ml-auto">
@@ -68,18 +68,20 @@
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container">
 								<a href="#">
-									<div class="logo_text"><span>DevOps Door</span></div>
+									<div class="logo_text"><span>{{ website_title }}</span></div>
 								</a>
 							</div>
 							<nav class="main_nav_contaner ml-auto">
 								<ul class="main_nav">
 									<li class="active"></li>
-																		<li><a type="text/css" href="index/">Home</a></li>
-																		<li><a type="text/css" href="#/">FAQ</a></li>
+                  {% for menu_item in dropdown_menu %}
+																		<li><a type="text/css" href="{{menu_item.link}}/">{{ menu_item.name }}</a></li>
+																		{# <li><a type="text/css" href="#/">FAQ</a></li>
 																		<li><a type="text/css" href="#/">Page</a></li>
 																		<li><a type="text/css" href="contact/">Contact</a></li>
-																		<li><a type="text/css" href="course_home/">Courses</a></li>
-																	</ul>	
+																		<li><a type="text/css" href="course_home/">Courses</a></li> #}
+                  {% endfor %}
+                </ul>	
 								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
 
 								<!-- Hamburger -->
@@ -129,12 +131,10 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-								<li class="menu_mm"><a type="text/css" href="index">Home</a></li>
-								<li class="menu_mm"><a type="text/css" href="#">FAQ</a></li>
-								<li class="menu_mm"><a type="text/css" href="#">Page</a></li>
-								<li class="menu_mm"><a type="text/css" href="contact">Contact</a></li>
-								<li class="menu_mm"><a type="text/css" href="course_home">Courses</a></li>
-							</ul>
+          {% for menu_item in dropdown_menu %}
+								<li class="menu_mm"><a type="text/css" href="{{ menu_item.link }}">{{ menu_item.name }}</a></li>
+          {% endfor %}
+			</ul>
 		</nav>
 	</div>
 	
@@ -510,9 +510,9 @@
 									<div class="footer_title">Contact Us</div>
 									<div class="footer_contact_info">
 										<ul>
-											<li>Email: basil1987@gmail.com</li>
-											<li>Phone:  +(91) 8197408582</li>
-											<li>Marathahalli, Bangalore</li>
+											<li>Email: {{ email_address }}</li>
+											<li>Phone:  {{ phone_number }}</li>
+											<li>{{ house_address }}</li>
 										</ul>
 									</div>
 								</div>
@@ -526,12 +526,10 @@
 									<div class="footer_title">Contact Us</div>
 									<div class="footer_links_container">
 										<ul>
-																						<li><a type="text/css" href="index">Home</a></li>
-																						<li><a type="text/css" href="#">FAQ</a></li>
-																						<li><a type="text/css" href="#">Page</a></li>
-																						<li><a type="text/css" href="contact">Contact</a></li>
-																						<li><a type="text/css" href="course_home">Courses</a></li>
-																					</ul>
+                    {% for menu_item in dropdown_menu %}
+											<li><a type="text/css" href="{{ menu_item.link }}">{{ menu_item.name }}</a></li>
+                    {% endfor %}
+										</ul>
 									</div>
 								</div>
 								

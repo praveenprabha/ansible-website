@@ -3,6 +3,7 @@ copy_frm_location: site-files
 site_documentroot: /var/www/html/devopsdoor
 
 
+
 #Site Index Page Variable
 
 # site_title: Project DevopDoor

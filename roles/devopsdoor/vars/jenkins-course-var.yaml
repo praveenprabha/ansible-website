@@ -1,0 +1,220 @@
+
+
+course_title: Build and Release through automated CI/CD pipeline
+course_info:
+  teacher: Basil Varghese
+  position: CTO of RavelGrid LLP 
+  category: Cloud Computing
+  image: basil_small.png
+  teacher_rating: 4.9
+  teacher_review: 140
+  teacher_quizzes: 600
+  teacher_info: |
+      Basil Varghese is an IT expert with 10+ years of IT experience and 5 years of Training experience in DevOps and Cloud. He is the CTO and Co-Founder of RavelGrid Technologies LLP, which is a startup that provide private cloud and DevOps solutions to its partner network. Before Starting his own venture, Basil worked as a Senior Liaison in Akamai Technologies, one of the biggest internet company. In his 10+ years of career, he worked for many startups and big companies and have an excellent technical and soft skills
+course_image: jenkins.png
+course_duration: 2.5 months
+course_lectures: 58 lectures
+course_hours: 85 hours
+
+rating:
+  num_of_star: rating_r_4
+  num_of_rating: 79
+  review_rating: 4.8
+  star:
+    - name: 5 Star
+      percent: 95
+    - name: 4 Star
+      percent: 20
+    - name: 3 Star
+      percent: 10
+    - name: 2 Star
+      percent: 0
+    - name: 1 Star
+      percent: 0
+
+
+
+
+## Course Description ## 
+
+course_desc_title: Build and Release through automated CI/CD pipeline
+course_desc_text: |
+  This training walk you through real time based best practices in build and release, and automating software change management workflow through a Ci/CD pipeline. If you have good knowledge on build and release process, you can enrol to this course. Else, please take the prerequisites training before enrolling. You get a chance to work on a real scenario based project, after course.
+
+course_requirement:
+  - You have 1+ years of experience into IT and software applications.
+  - You have completed the pre-requisites training conducted by Basil Varghese
+
+targeted_audience: |
+  This is the right course if you are from a Testing / Development background and find best industry leading practices for software change management. The idea is to automate all the CI / CD pipeline process required for a working project. Assume an automated pipeline run all work such as pulling the code, building it, testing, deploying, testing further, repeat all process in another mainline until its deployed to production. Thats what our course and project is all about
+
+## FAQ Section ##
+
+faq:
+  - question: |
+        I have a very little experience (or a Fresher) in IT. Is this course suitable for me?
+    answer: |
+        Yes, You need to complete the prerequisites training, a 2 weeks free program. You are eligible to start with this Training once you completed the prerequisites. If you are a fresher to IT, please take our 90 hours full DevOps and AWS program<
+  - question: |
+        Is the trainer reachable offline, whenever I need help?
+    answer: |
+        Yes. The offline support will be available during the day time, preferrably in the first half. You will have unconrolled access to the trainer along with his phone numbers and email IDs.
+  - question: |
+        Do you provide course materials?
+    answer: |
+        Once you enrolled to the training, you will get unlimitted long term access to a training portal where you will find all course maretials such as Presentations, Course Assignments, Project description, Trainer notes and Major tutorials etc. You will continue to get access to this portal even after the course completion. This allows you to complete the assigned projects with help of trainer. There is a chat option available in the portal too, to communicate with trainer and other students
+  - question: |
+        Do you provide job assistance?
+    answer: |
+        As of now, the job assistance is purely based on performance. Our trainers have more than 10 years of experience and they get lots of enquiries from colligues/companies. We assist the students purely based on performance which inlcude status of their attendance, project and assignment completions etc. So far, all our students who successfully completed all projects already found their way in their career
+  - question: |
+        Does the trainer help preparing for interviews and resumes ?
+    answer: |
+        Yes, trainer will assist you at end of the training with your resume preparation and interview patterns
+  - question: |
+        What are the prerequisites for this training ?
+    answer: |
+        A basic understanding about softwares and practices, knowledge into Networking concepts and Linux Administration are the mandatory prerequisites. Good knowledge in scripting (preferrably Python and Bash) and automation is highly recommended too. If you are unsure about these prerequisites, please consider taking our 90 hours full devops and aws program.
+  - question: |
+        Do you offer any project to understand the real time scenarios?
+    answer: |
+        This course come along with a free project prepared by your trainer (who will have atleast 10 years of work experience) completely based on work scenarios. It means you get a chance to work on loads of real time scenarios.
+
+
+## Course Curriculam Details ##
+
+course_curriculam_list:
+  - topic: Scripting Training - Bash and Python Scripting
+    subtopic:
+      - name: Shell Scripting
+        describe:
+          - Linux Shell
+          - Introduction to Bash
+          - Introduction to Linux process
+          - Positional Parameters
+          - Conditional statements
+          - Loops in Bash
+          - Function
+          - GetOps
+          - Case statement
+          - Linux Administration using shell scripting
+          - Real time scripts for different system administration activities
+      - name: Python Programming
+        describe:
+          - Why Python?
+          - Introduction to Object oriented programming
+          - Interactive programming concepts - Data Types
+          - Dictionary, List and Tuples
+          - Loop, Function, conditional statements
+          - Python modules and real time use - Creating module in python
+          - Practical scripts and real time examples
+  - topic: Pre-Requisites - All Major prerequisites for this training
+    subtopic:
+      - name: Linux Administration
+        describe:
+          - Package managers in Linux
+          - Introduction to Web Applications
+          - Apache and Apache modules 
+          - PHP Web Application frameworks 
+          - Application Servers and Tomcat
+          - Java Web application frameworks
+          - Database Servers - MySQL
+          - A sample Web application that run in Linux environment.  
+      - name: Networking Concepts
+        describe:
+          - Networking basics
+          - Internet and ISP
+          - NAT gateways, Routers and Switches
+          - DNS 
+          - Hosting your first website and running your webapplication
+      - name: Linux Basics
+        describe:
+          - Basic Linux Commands
+          - User management in Linux
+          - Permissions
+          - Troubleshooting and Log management
+  - topic: Build and Release Training - Git, Ant, Maven Nexus, Jenkins
+    subtopic:
+      - name: Ant
+        describe:
+          - Build Fundamentals
+          - XML scripting
+          - Properties and Variables
+          - ClassPath and Project orchestration
+          - Dependencies in Ant
+          - Bulding A java project using Ant
+          - Introduction to artifacts and artifact repository
+          - Introduction to Unit testing
+      - name: Maven
+        describe:
+          - Introduction to Build Management
+          - executable code and their significance in DevOps
+          - Maven - Introduction
+          - Classes and unit test in Java
+          - First Project - demo
+          - Dependency management in Maven.
+          - Goals In Maven
+          - Repositories - Local and Remote
+          - Maven plugins
+          - Dependency and Plugin repositories
+          - SNAPSHOT in Maven
+          - Unit testing with Maven
+          - Report generation using Maven
+          - Integration with Jenkins
+          - How Maven helps in CI / CD
+          - Maven Release plugin
+          - The Project
+      - name: Git and GitHub
+        describe:
+          - SCM - introduction
+          - Workflow of Developers in companies
+          - Git introduction
+          - Local and remote repository
+          - Working copy and Local repository
+          - SSH access to Remote repository
+          - Git stash
+          - Tags
+          - Branches
+          - Best Branching practices
+          - How does it matters to your company
+          - How the whole workflow look like in a real project
+          - Introduction to Release process and different environments in companies
+          - The Continuous Integration process
+          - Github and advantages
+          - Github and collaborative development
+      - name: Jenkins
+        describe:
+          - Introduction to Continuous Integration and Continuous Delivery
+          - Introduction to Jenkins
+          - Plugins in Jenkins
+          - Your first Job in Jenkins
+          - Jenkins to build your actual projects - Integration with Guthub, Maven, Nexus, Email, Dockers, Ant etc
+          - Triggers in Jenkins
+          - Jenkins master slave configuration
+          - Jenkins reporter plugin
+          - Upstream and Downstream projects - Unit testing
+          - Fingerprint plugin
+          - Jenkins for release
+          - Build jobs
+          - Building the CI / CD pipeline and best practices
+          - Merging in Git and integration with Jenkins
+          - Artifact repositories and integration with Jenkins. - Final Project
+
+## Review Comments ##
+
+review_comment:
+  - name: Sandeep R
+    time: 1 day ago 
+    comment_rating: rating_r_4
+    comment: |
+        Absolutely Brilliant Training by Basil. I recommend DevOps Door to anyone who is looking for DevOps and AWS Training.
+    comment_like: 15
+    images: " "
+  - name: Rony
+    time: 1 day ago
+    comment_rating: rating_r_5
+    comment: |
+        I agree. He is amazing.
+    comment_like: 15
+    images: images/comment_2.jpg
+

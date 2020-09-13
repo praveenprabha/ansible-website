@@ -1,6 +1,6 @@
 
 
-course_title: DevOps and AWS Complete Training
+course_title: Configuration Management - Ansible and Nagios
 course_info:
   teacher: Basil Varghese
   position: CTO of RavelGrid LLP 
@@ -11,10 +11,10 @@ course_info:
   teacher_quizzes: 600
   teacher_info: |
       Basil Varghese is an IT expert with 10+ years of IT experience and 5 years of Training experience in DevOps and Cloud. He is the CTO and Co-Founder of RavelGrid Technologies LLP, which is a startup that provide private cloud and DevOps solutions to its partner network. Before Starting his own venture, Basil worked as a Senior Liaison in Akamai Technologies, one of the biggest internet company. In his 10+ years of career, he worked for many startups and big companies and have an excellent technical and soft skills
-course_image: devopsaws.jpg
-course_duration: 2.5 months
-course_lectures: 58 lectures
-course_hours: 85 hours
+course_image: ansible.png
+course_duration: 1 months
+course_lectures: 26 lectures
+course_hours: 45 hours
 
 rating:
   num_of_star: rating_r_4
@@ -37,24 +37,24 @@ rating:
 
 ## Course Description ## 
 
-course_desc_title: DevOps and AWS Complete Training
+course_desc_title: Configuration Management - Ansible and Nagios
 course_desc_text: |
-  This is a complete DevOps and AWS program which takes 85 hours of training. It covers everything a DevOps and AWS engineer need to know including Linux Administration and Networking Basics, Scripting - Bash and Python, AWS training, DevOps CI/CD Pipeline, DevOps Configuration Management and continues Monitoring, Containerization in DevOps. All courses go along with a free project.
+  This is a complete Configuration Management project training, which uses Ansible as core Configuration Management tool. If you are not a linux expert, please complete our free prerequisites trainig before you enrol. This course covers best practices to manage your software infrastructure configuration. After training, you will get a chance to work on a real scenario based project.
 
 course_requirement:
   - You have 1+ years of experience into IT and software applications.
   - You have completed the pre-requisites training conducted by Basil Varghese
 
 targeted_audience: |
-  This course is intended for students who want to pursue a career in DevOps and need to understand how cloud computing helps todays IT demands. A real like projects guide you through the process which a company follow as their software practices. This is purely for a DevOps job, doesnt have much to do on the coding part, except some scripting which is mandatory for Automation. After learning this course and completing all projects, you become eligible to work on a core DevOps profile, also managing cloud resources required for your projects
+  If you are from an operational background and want to find best industrial practices to manage configurations of a software infrastructure. This is great for Linux/Windows Administrators who want to move their role as a DevOps engineer and explore the new approaches IT follows in Configuration Management.
 
 ## FAQ Section ##
 
 faq:
   - question: |
-        I have a very little experience in IT. Is this course suitable for me?
+        I have a very little experience (or a Fresher) in IT. Is this course suitable for me?
     answer: |
-        Yes, You need to complete the prerequisites training, a 2 weeks free program. You are eligible to start with this Training once you completed the prerequisites.
+        Yes, You need to complete the prerequisites training, a 2 weeks free program. You are eligible to start with this Training once you completed the prerequisites. If you are a fresher to IT, please take our 90 hours full DevOps and AWS program
   - question: |
         Is the trainer reachable offline, whenever I need help?
     answer: |
@@ -84,6 +84,30 @@ faq:
 ## Course Curriculam Details ##
 
 course_curriculam_list:
+  - topic: Scripting Training - Bash and Python Scripting
+    subtopic:
+      - name: Shell Scripting
+        describe:
+          - Linux Shell
+          - Introduction to Bash
+          - Introduction to Linux process
+          - Positional Parameters
+          - Conditional statements
+          - Loops in Bash
+          - Function
+          - GetOps
+          - Case statement
+          - Linux Administration using shell scripting
+          - Real time scripts for different system administration activities
+      - name: Python Programming
+        describe:
+          - Why Python?
+          - Introduction to Object oriented programming
+          - Interactive programming concepts - Data Types
+          - Dictionary, List and Tuples
+          - Loop, Function, conditional statements
+          - Python modules and real time use - Creating module in python
+          - Practical scripts and real time examples
   - topic: Configuration Management Training - Ansible and Nagios
     subtopic:
       - name: Chef
@@ -91,62 +115,73 @@ course_curriculam_list:
           - Introduction to Chef
           - Comparison with Ansible
           - Configuration Management Project - How it can be done on Chef
-      - name: Puppet
-        describe:
-          - Introduction to Puppet
-          - Comparison with Ansible
-          - Configuration Management Project - How it can be done on Puppet
       - name: Ansible
         describe:
           - Introduction to configuration Management
           - Ansible and SSH
           - Ansible architecture
-          - Advantage over other Tools
-  - topic: Build and Release Training - Git, Ant, Maven Nexus, Jenkins
+          - Advantage over other 
+          - Playbooks in Ansible - demo
+          - Security
+          - Introduction to YAML
+          - Ansible inventory
+          - Ansible Modules
+          - Advanced Playbook usage
+          - Ansible Roles
+          - Roles and your production infrastructure
+          - Ansible Galaxy, Demo
+          - Config Release using Ansible, Git etc
+          - Autoscaling using Ansible
+          - Integration with Cloud/AWS
+          - Final Project
+      - name: Puppet
+        describe:
+          - Introduction to Puppet
+          - Comparison with Ansible
+          - Configuration Management Project - How it can be done on Puppet
+      - name: Nagios
+        describe:
+          - Monitoring - Why its important?
+          - Nagios and Your real time infrastructure
+          - Hosts and Hostgroups
+          - Service and Service groups
+          - Host and Service templates
+          - Contacts and Contact groups
+          - Time periods and definitions
+          - Commands and definitions
+          - Nagios Plugins
+          - Writing a Nagios plugin
+          - Sample Nagios plugins to monitor your infrastructure.
+          - Nagios in real time
+          - Grouping your machines for monitoring. Best practices
+          - Automating your Nagios management.
+          - Integrating with other tools such as Jenkins, Ansible etc.
+  - topic: Pre-Requisites - All Major prerequisites for this training
     subtopic:
-      - name: Ant
+      - name: Linux Administration
         describe:
-          - Build Fundamentals
-          - XML scripting
-          - Properties and Variables
-          - ClassPath and Project orchestration
-      - name: Maven
+          - Package managers in Linux
+          - Introduction to Web Applications
+          - Apache and Apache modules 
+          - PHP Web Application frameworks 
+          - Application Servers and Tomcat
+          - Java Web application frameworks
+          - Database Servers - MySQL
+          - A sample Web application that run in Linux environment.  
+      - name: Networking Concepts
         describe:
-          - Introduction to Build Management
-          - executable code and their significance in DevOps
-          - Maven - Introduction
-          - Classes and unit test in Java
-      - name: Git and GitHub
+          - Networking basics
+          - Internet and ISP
+          - NAT gateways, Routers and Switches
+          - DNS 
+          - Hosting your first website and running your webapplication
+      - name: Linux Basics
         describe:
-          - SCM - introduction
-          - Workflow of Developers in companies
-  - topic: AWS Training
-    subtopic:
-      - name: IAM
-        describe:
-          - Access Managment - Introduction
-          - Restricting your aws resource access
-          - IAM Users 
-          - IAM Groups 
-          - IAM Role 
-      - name: SES
-        describe:
-          - SMTP - Introduction
-          - SMTP as service
-          - Sending out emails from your running application.
-      - name: RDS
-        describe:
-          - Relational Database - Introduction
-          - Instroduction to PaaS
-          - Running your relational Databases to Cloud
-      - name: S3
-        describe:
-          - Object storage and significance
-          - Storing your Object in cloud
-          - Integrating your php / java application with S3
-  # - topic: Script Training - Bash and Python Scripting
-  # - topic: Container and Orchestration Training - Docker and Kubernetes
-  # - topic: Pre-Requisites - All Major prequisites for the training
+          - Basic Linux Commands
+          - User management in Linux
+          - Permissions
+          - Troubleshooting and Log management
+
 
 
 ## Review Comments ##

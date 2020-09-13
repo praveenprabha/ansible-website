@@ -1,0 +1,109 @@
+
+
+course_title: Linux And Networking Training
+course_info:
+  teacher: Basil Varghese
+  position: CTO of RavelGrid LLP 
+  category: Cloud Computing
+  image: basil_small.png
+  teacher_rating: 4.9
+  teacher_review: 140
+  teacher_quizzes: 600
+  teacher_info: |
+      Basil Varghese is an IT expert with 10+ years of IT experience and 5 years of Training experience in DevOps and Cloud. He is the CTO and Co-Founder of RavelGrid Technologies LLP, which is a startup that provide private cloud and DevOps solutions to its partner network. Before Starting his own venture, Basil worked as a Senior Liaison in Akamai Technologies, one of the biggest internet company. In his 10+ years of career, he worked for many startups and big companies and have an excellent technical and soft skills
+course_image: linux.jpg
+course_duration: 2.5 months
+course_lectures: 58 lectures
+course_hours: 85 hours
+
+rating:
+  num_of_star: rating_r_4
+  num_of_rating: 79
+  review_rating: 4.8
+  star:
+    - name: 5 Star
+      percent: 95
+    - name: 4 Star
+      percent: 20
+    - name: 3 Star
+      percent: 10
+    - name: 2 Star
+      percent: 0
+    - name: 1 Star
+      percent: 0
+
+
+
+
+## Course Description ## 
+
+course_desc_title: Linux And Networking Training
+course_desc_text: |
+  This free training covers all pre-requisites required for DevOps and AWS training. Intended for students from Non-IT background so you can evaluate yourself before you enroll to a paid training. This includes Linux Basics, Linux Administration, Networking Concepts, Introduction to Cloud Computing and security practices in IT. Students can opt out after this training, with full refund.
+
+course_requirement:
+  - You have 1+ years of experience into IT and software applications.
+  - You have completed the pre-requisites training conducted by Basil Varghese
+
+targeted_audience: |
+  This is the first program where you begin. This free course is in fact a prerequisites training which will get you started if you are not an IT expert
+
+## FAQ Section ##
+
+faq:
+  - question: |
+        Why is this Training Free?
+    answer: |
+        We prepared our course in such a way that even a fresher can build a very good knowledge on DevOps and AWS. But you should first understand some basic things before you begin with big ideas. In rare situation, a fresher may believe this topics are not suitable for him and want to drop off after prerequisites. We do not want to charge you in that situation.
+  - question: |
+        Can I enroll to this course without paying an advance?
+    answer: |
+        We collect an advance fee that ensure a seriousness from both parties. But if you drop off after training, we assure that we wont add any condition but process your immediate refund.
+
+## Course Curriculam Details ##
+
+course_curriculam_list:
+  - topic: Pre-Requisites - All Major prerequisites for this training
+    subtopic:
+      - name: Linux Administration
+        describe:
+          - Package managers in Linux
+          - Introduction to Web Applications
+          - Apache and Apache modules 
+          - PHP Web Application frameworks 
+          - Application Servers and Tomcat
+          - Java Web application frameworks
+          - Database Servers - MySQL
+          - A sample Web application that run in Linux environment.  
+      - name: Networking Concepts
+        describe:
+          - Networking basics
+          - Internet and ISP
+          - NAT gateways, Routers and Switches
+          - DNS 
+          - Hosting your first website and running your webapplication
+      - name: Linux Basics
+        describe:
+          - Basic Linux Commands
+          - User management in Linux
+          - Permissions
+          - Troubleshooting and Log management
+
+## Review Comments ##
+
+review_comment:
+  - name: Sandeep R
+    time: 1 day ago 
+    comment_rating: rating_r_4
+    comment: |
+        Absolutely Brilliant Training by Basil. I recommend DevOps Door to anyone who is looking for DevOps and AWS Training.
+    comment_like: 15
+    images: " "
+  - name: Rony
+    time: 1 day ago
+    comment_rating: rating_r_5
+    comment: |
+        I agree. He is amazing.
+    comment_like: 15
+    images: images/comment_2.jpg
+
