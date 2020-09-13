@@ -1,5 +1,5 @@
 -
-  name: Configure Website DevopsDoor
+  name: Configure DevopsDoor Website
   hosts: apache_server
   remote_user: ubuntu
   become_user: root
